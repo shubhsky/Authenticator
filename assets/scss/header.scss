@@ -1,0 +1,22 @@
+header{
+    color: white;
+    display: flex;
+    background-color: skyblue;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        font-size: 2rem;
+    }
+    ul{
+        color: white;
+        display: flex;
+        li{
+            list-style: none;
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 0.2rem;
+            }
+        }
+    }
+}

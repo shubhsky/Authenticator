@@ -1,0 +1,21 @@
+footer{
+    background-color: gray;
+    height: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        letter-spacing: 0.1rem;
+    }
+    ul{
+        li{
+            list-style: none;
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 0.2rem;
+            }
+        }
+    }
+}

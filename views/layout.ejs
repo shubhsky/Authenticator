@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+    <!-- Generating style for sub pages -->
+    <%- style %>
+</head>
+<body>
+    <!-- Including header partial -->
+    <%- include('_header'); %>
+
+    <main id="layout-main">
+        <!-- Telling this is the variable part in out layout -->
+        <%- body %>
+    </main>
+
+    <!-- Including footer partial -->
+    <%- include('_footer'); %>
+
+
+    <!-- Generating script for sub pages -->
+    <%- script %>
+
+</body>
+</html>
